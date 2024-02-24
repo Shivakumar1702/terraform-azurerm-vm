@@ -107,6 +107,6 @@ variable "size" {
 
 variable "pub_key_path" {
   type        = string
-  description = "path of the public key for authentication"
+  description = "file path of the public key for authentication along with file name eg. If public key is in present in current folder the use value as ./<name of the public key>"
 
 }
